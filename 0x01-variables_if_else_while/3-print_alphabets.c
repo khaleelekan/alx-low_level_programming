@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	char ch = 'a';
+gchar ch = 'a';
 	char chUpper = 'A';
 
 	while (ch <= 'z')
@@ -16,7 +16,7 @@ int main(void)
 	putchar(ch);
 	ch++;
 	}
-	while (chUpper <= 'A')
+	while (chUpper <= 'Z')
 	{
 	putchar(chUpper);
 	chUpper++;
